@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-4 col-lg-4">
                         <div class="logo">
-                            <a href="/home">
+                            <a [routerLink]="['/home']">
                                 <img src="assets/img/logo.png" alt="">
                             </a>
                         </div>
@@ -37,7 +37,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 d-block d-lg-none">
                             <div class="logo">
-                                <a href="/home">
+                                <a [routerLink]="['/home']">
                                     <img src="assets/img/logo.png" alt="">
                                 </a>
                             </div>
@@ -46,22 +46,22 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="/home">home</a></li>
-                                        <li><a href="/service">Services</a></li>
-                                        <li><a href="/about">about</a></li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                        <li><a [routerLink]="['/home']">home</a></li>
+                                        <li><a [routerLink]="['/service']">Services</a></li>
+                                        <li><a [routerLink]="['/about']">about</a></li>
+                                        <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="/servicedetails">service details</a></li>
+                                                <li><a [routerLink]="['/servicedetails']">service details</a></li>
                                                 <li><a href="/elements">elements</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                           <ul class="submenu">
                                               <li><a href="/blog">blog</a></li>
                                               <li><a href="/single-blog">single-blog</a></li>
                                           </ul>
                                       </li> -->
-                                        <li><a href="/contact">Contact</a></li>
+                                        <li><a [routerLink]="['/contact']">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
