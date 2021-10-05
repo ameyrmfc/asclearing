@@ -1661,7 +1661,10 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-    background-image: url(../img/banner/banner.png);
+    /* background-image: url(../img/banner/banner.png); */
+    /* background-image: url(../img/banner/360_F_430736178_x5NChgb3wkesBX8gGA1qb2oZv71ydaMQ.jpg); */
+    background-image: url(../img/banner/pexels-tom-fisk-2226458.jpg);
+    /* pexels-tom-fisk-2226458.jpg */
 }
 
 
@@ -2558,7 +2561,9 @@ h3 {
 /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 
 .testimonial_area {
-    background-image: url(../img/banner/testmonial.png);
+    /* chuttersnap-9cCeS9Sg6nU-unsplash.jpg */
+    /* background-image: url(../img/banner/testmonial.png); */
+    background-image: url(../img/banner/chuttersnap-9cCeS9Sg6nU-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
